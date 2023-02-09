@@ -1,0 +1,169 @@
+baseURL: "https://dev-abir.github.io/"
+title: Abir Ganguly | Portfolio
+paginate: 10
+theme: PaperMod
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# TODO: check
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    # for SEO (twitter cards etc)
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Abir Ganguly | Portfolio
+    description: "Hello! I am Abir Ganguly. This is my portfolio website."
+    keywords: [Blog, Portfolio, PaperMod, Hugo, Software Developer, Software Engineering, GNIT]
+    author: Abir Ganguly
+    # author: ["Me", "You"] # multiple authors
+    images: ["cropped.jpeg"]
+    DateFormat: "2 January, 2006"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    ShowWordCount: true
+    ShowRssButtonInSectionTermList: true
+    UseHugoToc: true
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "cropped.jpeg"
+        # favicon16x16: "<link / abs url>"
+        # favicon32x32: "<link / abs url>"
+        # apple_touch_icon: "<link / abs url>"
+        # safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "Home"
+        # icon: /apple-touch-icon.png
+        icon: /cropped.jpeg
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: Hello! I am Abir Ganguly. 👋
+        subtitle: "Web Developer | AI enthusiast"
+        imageUrl: "cropped.jpeg"
+        # imageWidth: 120
+        # imageHeight: 120
+        imageTitle: Abir Ganguly
+        buttons:
+            - name: Experience
+              url: experience
+            - name: Projects
+              url: projects
+            - name: View Resume
+              url: Abir Ganguly Resume.pdf
+            # - name: Tags
+            #   url: tags
+
+    # home-info mode
+    # homeInfoParams:
+    #     Title: "Hi there \U0001F44B"
+    #     Content: Welcome to my blog
+
+    socialIcons:
+        # - name: twitter
+        #   url: "https://twitter.com/"
+        # - name: stackoverflow
+        #   url: "https://stackoverflow.com"
+        - name: github
+          url: "https://github.com/dev-abir"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/abir-ganguly-a77057220/"
+        - name: email
+          url: "mailto:gangulyabir777@gmail.com"
+
+    # TODO
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+    #     bing:
+    #         SiteVerificationTag: "XYZabc"
+    #     yandex:
+    #         SiteVerificationTag: "XYZabc"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    # editPost:
+    #     URL: "https://github.com/<path_to_repo>/content"
+    #     Text: "Suggest Changes" # edit text
+    #     appendFilePath: true # to append file path to Edit link
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+# required for search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+menu:
+    main:
+        - identifier: experience
+          name: Experience
+          url: /experience
+          weight: 10
+        - identifier: projects
+          name: Projects
+          url: /projects/
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 30
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 40
+        # - identifier: resume
+        #   name: Resume
+        #   url: "/Abir%20Ganguly%20Resume.pdf"
+        #   weight: 50
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 60
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
