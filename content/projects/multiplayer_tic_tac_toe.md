@@ -1,6 +1,6 @@
 ---
 title: "multiplayer_tic_tac_toe"
-date: 2023-02-09
+date: 2023-02-10
 tags: ['flask', 'multiplayer', 'multiplayer-game', 'python', 'tictactoe', 'tictactoe-python', 'websockets']
 description: "A simple multiplayer tic-tac-toe game, in flask."
 disableShare: false

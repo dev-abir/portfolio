@@ -1,6 +1,6 @@
 ---
 title: "AI plays-python"
-date: 2023-02-09
+date: 2023-02-10
 tags: ['deep-learning', 'machine-learning', 'neural-network', 'neural-networks', 'python', 'recurrent-neural-network', 'recurrent-neural-networks']
 description: "A simple flappy bird game, written in Python, where the player is AI."
 disableShare: false

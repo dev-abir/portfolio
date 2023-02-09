@@ -1,8 +1,8 @@
 ---
 title: "Currency Exchange"
-date: 2023-02-09
+date: 2023-02-10
 tags: ['css', 'mui', 'react', 'reactjs']
-description: "A simple react app, mainly to learn react, [mui](https://mui.com/) and css."
+description: "A simple react app, mainly to learn react, mui and css."
 disableShare: false
 # cover:
 #     image: "<image path/url>" # image path/url

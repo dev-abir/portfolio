@@ -1,6 +1,6 @@
 ---
 title: "quiz"
-date: 2023-02-09
+date: 2023-02-10
 tags: ['expo', 'javascript', 'mobile-app', 'multiplatform', 'react-native', 'typescript', 'web-app', 'web-application']
 description: "A simple quiz app in React Native and TypeScript"
 disableShare: false

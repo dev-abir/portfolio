@@ -50,7 +50,6 @@ for project in projects:
     ).text
     lines_wo_blank = [l for l in readme_content.split("\n") if l != ""]
     title = lines_wo_blank[0].removeprefix("#").strip()
-    description = lines_wo_blank[1]
 
     with open(f"content/projects/{project}.md", "w") as f:
         f.write(

@@ -1,6 +1,6 @@
 ---
 title: "chlorophyll"
-date: 2023-02-09
+date: 2023-02-10
 tags: ['flutter', 'image-classification', 'machine-learning', 'plant-disease', 'plant-disease-detection', 'tensorflow']
 description: "A simple Plant disease detector APP, using image classification (Machine Learning) technique."
 disableShare: false

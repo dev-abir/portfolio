@@ -1,6 +1,6 @@
 ---
 title: "ChitChat"
-date: 2023-02-09
+date: 2023-02-10
 tags: ['django', 'django-channels', 'django-channels-framework', 'framer-motion', 'python', 'react', 'reactjs', 'tailwindcss']
 description: "A simple chat application, with chat rooms."
 disableShare: false
