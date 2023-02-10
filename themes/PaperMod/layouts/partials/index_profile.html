@@ -60,13 +60,28 @@
 <script src="{{ .Site.BaseURL }}particles.min.js"></script>
 <script>
     particlesJS.load('particles-js', '/particlesjs-config.json', function() {
-            //   console.log('callback - particles.js config loaded');
-        
-            // check if the user prefers dark or light theme, toggle accordingly
-            if (localStorage.getItem("pref-theme") !== "dark") {
-                pJSDom[0].pJS.particles.color.value = '#000000';
-                pJSDom[0].pJS.particles.line_linked.color = '#000000';
-                pJSDom[0].pJS.fn.particlesRefresh();
-            }
+        //   console.log('callback - particles.js config loaded');
+    
+        // check if the user prefers dark or light theme, toggle accordingly
+        if (localStorage.getItem("pref-theme") !== "dark") {
+            pJSDom[0].pJS.particles.color.value = '#000000';
+            pJSDom[0].pJS.particles.line_linked.color = '#000000';
+            pJSDom[0].pJS.fn.particlesRefresh();
+        }
+
+        const slowDestroyPjs = () => {
+            // slowly destroy particles effect, they might be too distracting
+            document.getElementById("particles-js").style.transition = "opacity 1s";
+            document.getElementById("particles-js").style.opacity = 0;
+            setTimeout(() => {
+                window.pJSDom[0].pJS.fn.vendors.destroypJS();
+                window["pJSDom"] = [];
+            }, 1000);
+
+            // once particlejs removed, no need to listen to clicks
+            window.removeEventListener("click", slowDestroyPjs);
+        }
+
+        window.addEventListener("click", slowDestroyPjs)
     });
 </script>
