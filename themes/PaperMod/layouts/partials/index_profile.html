@@ -37,7 +37,7 @@
         {{- with .buttons }}
         <div class="buttons">
             {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+            <a class="button" href="{{ trim .url " " }}" target="_blank" rel="noopener" title="{{ .name }}">
                 <span class="button-inner">
                     {{ .name }}
                     {{- if (findRE "://" .url) }}&nbsp;
@@ -60,6 +60,13 @@
 <script src="{{ .Site.BaseURL }}particles.min.js"></script>
 <script>
     particlesJS.load('particles-js', '/particlesjs-config.json', function() {
-    //   console.log('callback - particles.js config loaded');
+            //   console.log('callback - particles.js config loaded');
+        
+            // check if the user prefers dark or light theme, toggle accordingly
+            if (localStorage.getItem("pref-theme") !== "dark") {
+                pJSDom[0].pJS.particles.color.value = '#000000';
+                pJSDom[0].pJS.particles.line_linked.color = '#000000';
+                pJSDom[0].pJS.fn.particlesRefresh();
+            }
     });
 </script>
