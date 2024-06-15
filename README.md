@@ -10,6 +10,17 @@ The public folder contains the resultant build files (static HTML and styles) af
 
 ## Notes for future
 
+- To run locally: `hugo server` or `hugo server -D`.
+
+- To build: `hugo`.
+
 - The `themes` folder contains **modified** PaperMod theme files (added Particles effect). It is just git-clonned, I should convert that to submodule in future.
 
 - The `archetypes` folder contains some default content for new posts. If we create new post using hugo CLI, then it will use those archetypes, obviously we can ovveride those content and the overriden content will be used to build the side.
+
+- To update this thing:
+    - Clone the `public` folder (if not clonned properly) `git submodule update --init --recursive`
+    - Do changes in the source code, then (optionally delete all content, except the `.git` folder of `public`).
+    - Then invoke `hugo` to rebuild contents of `public`.
+    - Now at first, git add, commit and push the submodule.
+    - Then, you can do the same for the parent (root) folder.
