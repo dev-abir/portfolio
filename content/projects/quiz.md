@@ -1,9 +1,26 @@
 ---
 title: "quiz"
-date: 2023-02-10
+date: 2022-04-12T07:53:18Z
 tags: ['expo', 'javascript', 'mobile-app', 'multiplatform', 'react-native', 'typescript', 'web-app', 'web-application']
 description: "A simple quiz app in React Native and TypeScript"
 disableShare: false
+searchHidden: false
+
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+# canonicalURL: "https://canonical.url/to/page"
+disableHLJS: false
+hideSummary: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+
 # cover:
 #     image: "<image path/url>" # image path/url
 #     alt: "<alt text>" # alt text
@@ -13,6 +30,7 @@ disableShare: false
 ---
 
 [🔗 Github repo](https://github.com/dev-abir/quiz)
+
 # quiz
 A simple quiz app in React Native and TypeScript
 

@@ -20,8 +20,8 @@ params:
     title: Abir Ganguly | Portfolio
     description: "Hello! I am Abir Ganguly. This is my portfolio website."
     keywords: [Blog, Portfolio, PaperMod, Hugo, Software Developer, Software Engineering, GNIT]
-    author: Abir Ganguly
-    # author: ["Me", "You"] # multiple authors
+    # author: Abir Ganguly
+    # # author: ["Me", "You"] # multiple authors
     images: ["cropped.jpeg"]
     DateFormat: "2 January, 2006"
     defaultTheme: auto # dark, light
@@ -31,7 +31,7 @@ params:
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
+    ShowCodeCopyButtons: true
     ShowWordCount: true
     ShowRssButtonInSectionTermList: true
     UseHugoToc: true
@@ -40,7 +40,7 @@ params:
     comments: false
     hidemeta: false
     hideSummary: false
-    showtoc: false
+    showtoc: true
     tocopen: false
 
     assets:
@@ -64,7 +64,7 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: Hello! I am Abir Ganguly. 👋
-        subtitle: "Web Developer | AI enthusiast"
+        subtitle: "A passionate developer. 👨‍💻"
         imageUrl: "cropped.jpeg"
         # imageWidth: 120
         # imageHeight: 120
@@ -75,7 +75,7 @@ params:
             - name: Projects
               url: projects
             - name: View Resume
-              url: Abir Ganguly Resume.pdf
+              url: Abir_Ganguly_Resume.pdf
             # - name: Tags
             #   url: tags
 
@@ -85,16 +85,16 @@ params:
     #     Content: Welcome to my blog
 
     socialIcons:
-        # - name: twitter
-        #   url: "https://twitter.com/"
         # - name: stackoverflow
         #   url: "https://stackoverflow.com"
         - name: github
           url: "https://github.com/dev-abir"
         - name: linkedin
-          url: "https://www.linkedin.com/in/abir-ganguly-a77057220/"
+          url: "https://www.linkedin.com/in/abir-ganguly/"
         - name: email
           url: "mailto:gangulyabir777@gmail.com"
+        - name: x
+          url: "https://twitter.com/gangulyabir777"
 
     # TODO
     # analytics:
@@ -143,14 +143,18 @@ menu:
           name: Projects
           url: /projects/
           weight: 20
+        - identifier: blogs
+          name: Blogs
+          url: /blogs/
+          weight: 25
         - identifier: search
           name: Search
           url: /search/
           weight: 30
-        - identifier: tags
-          name: Tags
-          url: /tags/
-          weight: 40
+        # - identifier: tags
+        #   name: Tags
+        #   url: /tags/
+        #   weight: 40
         # - identifier: resume
         #   name: Resume
         #   url: "/Abir%20Ganguly%20Resume.pdf"

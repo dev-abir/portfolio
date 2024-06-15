@@ -1,9 +1,26 @@
 ---
 title: "chlorophyll"
-date: 2023-02-10
+date: 2022-11-17T14:46:15Z
 tags: ['flutter', 'image-classification', 'machine-learning', 'plant-disease', 'plant-disease-detection', 'tensorflow']
 description: "A simple Plant disease detector APP, using image classification (Machine Learning) technique."
 disableShare: false
+searchHidden: false
+
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+# canonicalURL: "https://canonical.url/to/page"
+disableHLJS: false
+hideSummary: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+
 # cover:
 #     image: "<image path/url>" # image path/url
 #     alt: "<alt text>" # alt text
@@ -13,6 +30,7 @@ disableShare: false
 ---
 
 [🔗 Github repo](https://github.com/dev-abir/chlorophyll)
+
 # chlorophyll
 
 A simple Plant disease detector APP, using image classification (Machine Learning) technique.

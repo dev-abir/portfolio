@@ -1,9 +1,26 @@
 ---
 title: "Currency Exchange"
-date: 2023-02-10
+date: 2021-12-18T13:35:01Z
 tags: ['css', 'mui', 'react', 'reactjs']
 description: "A simple react app, mainly to learn react, mui and css."
 disableShare: false
+searchHidden: false
+
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+# canonicalURL: "https://canonical.url/to/page"
+disableHLJS: false
+hideSummary: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+
 # cover:
 #     image: "<image path/url>" # image path/url
 #     alt: "<alt text>" # alt text
@@ -13,6 +30,7 @@ disableShare: false
 ---
 
 [🔗 Github repo](https://github.com/dev-abir/currency-exchange)
+
 # Currency Exchange
 
 A simple react app, mainly to learn react, [mui](https://mui.com/) and css.
