@@ -3,6 +3,7 @@ title: "Rasoi"
 date: 2023-11-03T14:05:19Z
 tags: []
 description: "A social media for recipes 🍳."
+canonicalURL: "https://github.com/rasoi-devs/rasoi"
 disableShare: false
 searchHidden: false
 
@@ -11,7 +12,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true

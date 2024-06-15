@@ -3,6 +3,7 @@ title: "quiz"
 date: 2022-04-12T07:53:18Z
 tags: ['expo', 'javascript', 'mobile-app', 'multiplatform', 'react-native', 'typescript', 'web-app', 'web-application']
 description: "A simple quiz app in React Native and TypeScript"
+canonicalURL: "https://github.com/dev-abir/quiz"
 disableShare: false
 searchHidden: false
 
@@ -11,7 +12,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true

@@ -3,6 +3,7 @@ title: "spaceapps-2021"
 date: 2021-10-02T05:52:08Z
 tags: []
 description: "Code repository for the NASA Space Apps challenge 2021"
+canonicalURL: "https://github.com/Hello-Moon/spaceapps-2021"
 disableShare: false
 searchHidden: false
 
@@ -11,7 +12,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true

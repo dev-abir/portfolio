@@ -3,6 +3,7 @@ title: "Currency Exchange"
 date: 2021-12-18T13:35:01Z
 tags: ['css', 'mui', 'react', 'reactjs']
 description: "A simple react app, mainly to learn react, mui and css."
+canonicalURL: "https://github.com/dev-abir/currency-exchange"
 disableShare: false
 searchHidden: false
 
@@ -11,7 +12,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true

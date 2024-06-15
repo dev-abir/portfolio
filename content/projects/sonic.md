@@ -3,6 +3,7 @@ title: "sonic"
 date: 2022-07-18T15:20:01Z
 tags: []
 description: "A super fast code judging system, which compiles and runs programs locally."
+canonicalURL: "https://github.com/dev-abir/sonic"
 disableShare: false
 searchHidden: false
 
@@ -11,7 +12,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true

@@ -3,6 +3,7 @@ title: "snake"
 date: 2020-05-30T15:31:32Z
 tags: ['cpp', 'game', 'game-development', 'sfml', 'snake-game']
 description: "A simple Snake game in C++, using the SFML library."
+canonicalURL: "https://github.com/dev-abir/snake"
 disableShare: false
 searchHidden: false
 
@@ -11,7 +12,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true

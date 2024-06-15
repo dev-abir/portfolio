@@ -3,6 +3,7 @@ title: "ChitChat"
 date: 2022-01-08T06:19:17Z
 tags: ['django', 'django-channels', 'django-channels-framework', 'framer-motion', 'python', 'react', 'reactjs', 'tailwindcss']
 description: "A simple chat application, with chat rooms."
+canonicalURL: "https://github.com/dev-abir/ChitChat"
 disableShare: false
 searchHidden: false
 
@@ -11,7 +12,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true

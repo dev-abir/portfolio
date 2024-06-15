@@ -3,6 +3,7 @@ title: "AI plays-python"
 date: 2021-11-09T16:17:59Z
 tags: ['deep-learning', 'machine-learning', 'neural-network', 'neural-networks', 'python', 'recurrent-neural-network', 'recurrent-neural-networks']
 description: "A simple flappy bird game, written in Python, where the player is AI."
+canonicalURL: "https://github.com/dev-abir/aiPlays-python"
 disableShare: false
 searchHidden: false
 
@@ -11,7 +12,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true

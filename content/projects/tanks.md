@@ -3,6 +3,7 @@ title: "tanks"
 date: 2020-04-02T07:00:44Z
 tags: ['2d-game', 'game-dev', 'game-development', 'go', 'golang', 'pixel-game-engine', 'tank-war', 'tanks-game']
 description: "A simple tanks war game, written in GO."
+canonicalURL: "https://github.com/dev-abir/tanks"
 disableShare: false
 searchHidden: false
 
@@ -11,7 +12,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true

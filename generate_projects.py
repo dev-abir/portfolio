@@ -37,6 +37,7 @@ title: "{title}"
 date: {date}
 tags: {tags}
 description: "{description}"
+canonicalURL: "{github_link}"
 disableShare: false
 searchHidden: false
 
@@ -45,7 +46,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true

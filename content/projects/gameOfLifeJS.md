@@ -3,6 +3,7 @@ title: "gameOfLifeJS"
 date: 2020-05-26T08:28:45Z
 tags: []
 description: "The Conway's_Game_of_Life in Javascript."
+canonicalURL: "https://github.com/dev-abir/gameOfLifeJS"
 disableShare: false
 searchHidden: false
 
@@ -11,7 +12,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true

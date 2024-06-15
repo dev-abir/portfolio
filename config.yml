@@ -1,11 +1,12 @@
 baseURL: "https://dev-abir.github.io/"
 title: Abir Ganguly | Portfolio
-paginate: 10
+paginate: 100
 theme: PaperMod
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
 
 # TODO: check
 # googleAnalytics: UA-123-45

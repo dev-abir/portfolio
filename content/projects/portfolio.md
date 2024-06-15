@@ -3,6 +3,7 @@ title: "portfolio"
 date: 2023-02-09T19:02:55Z
 tags: []
 description: "This is my portfolio."
+canonicalURL: "https://github.com/dev-abir/portfolio"
 disableShare: false
 searchHidden: false
 
@@ -11,7 +12,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false
 hideSummary: false
 ShowReadingTime: true
@@ -55,6 +55,6 @@ The public folder contains the resultant build files (static HTML and styles) af
     - Clone the `public` folder (if not clonned properly) `git submodule update --init --recursive`
     - Do changes in the source code, then (optionally delete all content, except the `.git` folder of `public`).
     - Then invoke `hugo` to rebuild contents of `public`.
-    - Now at first, git add, commit and push the submodule.
+    - Now at first, git add, commit and push the submodule (`git push origin HEAD:master`).
     - Then, you can do the same for the parent (root) folder.
 
