@@ -10,6 +10,8 @@ The public folder contains the resultant build files (static HTML and styles) af
 
 ## Notes for future
 
+> `public` folder has some extra projects / link to live demos at `public/l`, don't delete it.
+
 - To run locally: `hugo server` or `hugo server -D`.
 
 - To build: `hugo`.
